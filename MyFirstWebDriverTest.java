@@ -30,7 +30,7 @@ public class MyFirstWebDriverTest {
 			System.out.println("Test Case Failed. Expected was - " + expectedPageTitleAfterLogin + " But actual is - "
 					+ actualPageTitleAfterLogin);
 		}
-		
+		//This will close the browser. 
 		driver.quit();
 	}
 
