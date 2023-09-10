@@ -126,6 +126,7 @@ public class WebElementCommands {
 
 	@AfterClass
 	public void afterClass() {
+		//This will close the browser.
 		driver.quit();
 	}
 
