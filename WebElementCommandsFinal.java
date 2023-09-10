@@ -21,7 +21,7 @@ import org.testng.annotations.AfterClass;
 public class WebElementCommands {
 	WebDriver driver;
 
-//	@Test
+	@Test
 	public void verifyloginToNicheThyselfIsSuccessful() throws InterruptedException {
 		driver.get("http://www.cookbook.seleniumacademy.com/Config.html");
 		boolean isHeadLampEnabled = driver.findElement(By.name("ledheadlamp")).isEnabled();
@@ -33,9 +33,6 @@ public class WebElementCommands {
 		System.out.println(isParkingSensorSelected);
 		Thread.sleep(5000);
 		System.out.println(parkSensor.getTagName());
-		// WebElement commands - sendKeys(), submit(), click(), getText()
-		// getAttribute()
-		// parkSensor.clear() ;// if a text box has certain text, then it will clear it.
 		driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
 		WebElement hiddenElement = driver.findElement(By.id("finish"));
 		System.out.println("Hidden Element isDisplayed is False - " + hiddenElement.isDisplayed());

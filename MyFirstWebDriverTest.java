@@ -7,10 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class MyFirstWebDriverTest {
-		//"http://www.yahoomail.com"
+
 	public static void main(String[] args) {
-		// Open Chrome Browser
-		//System.setProperty("webdriver.chrome.verboseLogging", "true");
 		WebDriver driver = new ChromeDriver(); // Opens the chrome browser
 		driver.manage().window().maximize();
 		driver.get("https://nichethyself.com/tourism/home.html");
