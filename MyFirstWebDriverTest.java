@@ -11,7 +11,7 @@ public class MyFirstWebDriverTest {
 	public static void main(String[] args) {
 //This line added in main branch
 		WebDriver driver = new ChromeDriver(); // Opens the chrome browser
-		driver.manage().window().maximize();
+		driver.manage().window().fullScreen();
 		driver.get("https://nichethyself.com/tourism/home.html");
 		WebElement userName = driver.findElement(By.name("username"));
 		userName.sendKeys("stc123");
