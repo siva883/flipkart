@@ -10,8 +10,6 @@ public class MyFirstWebDriverTest {
 		//"http://www.yahoomail.com"
 	public static void main(String[] args) {
 		// Open Chrome Browser
-//		System.setProperty("webdriver.chrome.driver",
-//				"test\\resources\\chromedriver.exe");
 		//System.setProperty("webdriver.chrome.verboseLogging", "true");
 		WebDriver driver = new ChromeDriver(); // Opens the chrome browser
 		driver.manage().window().maximize();
@@ -22,8 +20,6 @@ public class MyFirstWebDriverTest {
 		WebElement password = driver.findElement(By.name("password"));
 		password.sendKeys("12345");
 		
-		//driver.findElement(By.name("password")).sendKeys("12345");
-//		driver.findElement(By.name("password")).getText().toLowerCase().toUpperCase().equals("ABC");
 		
 		password.submit();
 		String expectedPageTitleAfterLogin = "My account";
