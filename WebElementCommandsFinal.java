@@ -20,7 +20,7 @@ import org.testng.annotations.AfterClass;
 
 public class WebElementCommands {
 	WebDriver driver;
-
+//This is a slow test. 
 	@Test
 	public void verifyloginToNicheThyselfIsSuccessful() throws InterruptedException {
 		driver.get("http://www.cookbook.seleniumacademy.com/Config.html");
