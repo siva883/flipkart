@@ -12,11 +12,6 @@ pipeline {
                 echo 'Hello World'
             }
         }
-           stage('SonarQube Static Analysis') {
-            steps {
-                echo 'Hello World'
-            }
-        }
            stage('Build') {
             steps {
                 echo 'Hello World'
