@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-           stage('Unit Testing') {
+           stage('Unit Testing-Fast') {
             steps {
                 echo 'Hello World'
             }
