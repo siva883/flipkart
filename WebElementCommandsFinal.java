@@ -38,7 +38,7 @@ public class WebElementCommands {
 		System.out.println("Hidden Element isDisplayed is False - " + hiddenElement.isDisplayed());
 	}
 
-//	@Test
+	@Test
 	public void handlingCheckBox() throws InterruptedException {
 		driver.get("http://www.cookbook.seleniumacademy.com/Config.html");
 		WebElement parkSensor = driver.findElement(By.name("parksensor"));
