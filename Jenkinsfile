@@ -1,5 +1,5 @@
 pipeline {
-    agent android
+    agent any
 
     stages {
         stage('Hello') {
